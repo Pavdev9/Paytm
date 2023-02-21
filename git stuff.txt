@@ -1,0 +1,14 @@
+git remote add origin https://github.com/Pavdev9/Paytm.git
+
+
+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      (token)
+
+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  token2
+
+
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.5.2:install (default-install) on project swiggy: 
+Failed to install metadata nareshit:swiggy/maven-metadata.xml: Could not read metadata /root/.m2/repository/nareshit/swiggy/maven-metadata-local.xml: 
+no more data available - expected end tags </release></versioning></metadata> to close start tag <release> from line 6 and start tag <versioning> from line 5 
+and start tag <metadata> from line 2, parser stopped on START_TAG seen ...<versioning>\n    <release>... @6:14 -> [Help 1]
+
+The answer he gave was i need to check the configuration like POM.XML..i think reloading of Maven stuff should work
